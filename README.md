@@ -5,5 +5,5 @@ This warehouse is used to store my first-class code.
 | -----| ---- | ---- |
 ||||
 | 算法竞赛 | 题解 | 单元格 |
-| 杂烩大全 | 单元格 | 单元格 |
-||||
+|  | 单元格 | 单元格 |
+| 杂烩大全|||
