@@ -8,6 +8,11 @@
 | 杂烩大全|||
 |阅读打卡|坚持|[usity-jie-book](https://github.com/JIeJaitt/usity-jie/tree/main/book)|
 
+## 待补充
+- [ ] 仓库配套PDF
+- [ ] 仓库配套思维导图
+- [ ] 仓库配套docs
+- [ ]仓库配套Hexo
 
 ## 算法竞赛 Algorithm competition アルゴリズムの競争
 ### 复杂度
