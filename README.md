@@ -12,7 +12,7 @@
 - [ ] 仓库配套PDF
 - [ ] 仓库配套思维导图
 - [ ] 仓库配套docs
-- [ ]仓库配套Hexo
+- [ ] 仓库配套Hexo
 
 ## 算法竞赛 Algorithm competition アルゴリズムの競争
 ### 复杂度
