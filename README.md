@@ -41,7 +41,8 @@
   <img src="https://leetcode.com/static/images/region/cn.svg" height="45px" align="center" alt="cn">
   <img src="https://leetcode.com/static/images/region/us.svg" height="45px" align="center" alt="us">
   
- <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
+ <img src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" width="100px" align="center" alt="GitHub Readme Stats" />
+  
  <h2 align="center">GitHub Readme Stats</h2>
  <p align="center">Get dynamically generated GitHub stats on your readmes!</p>
 </p>
