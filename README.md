@@ -36,7 +36,7 @@
   - 桶排序  
 
 <img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
-<img src="https://leetcode.com/static/images/region/cn.svg" width="50%">
+<img src="https://leetcode.com/static/images/region/cn.svg">
 <p align="center">
  <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
  <h2 align="center">GitHub Readme Stats</h2>
