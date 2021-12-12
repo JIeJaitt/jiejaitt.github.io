@@ -69,7 +69,8 @@
     </a>
   </p>
 
-|  ID  |                            Title                             | Difficulty |                             Java                             |                            Python                            |                             Ruby                             |                     C++                      |                     Swift                      |
+|  ID  |                            Title                             | Difficulty |                             Java                             |                            Python                            |                             Golang                             |                     Cpp                      |                     C                      |
 | :--: | :----------------------------------------------------------: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------: | :--------------------------------------------: |
 |||||||||
-| 0001  |      [Two Sum](https://leetcode.com/problems/two-sum/)       |    Easy    | [Java]() | [Python]() | [Ruby]() | [C++]()  |                       no                       |
+| 0001  |      [Two Sum](https://leetcode.com/problems/two-sum/)       |    Easy    | [Java]() | [Python]() | [Golang]() | [Cpp]()  |                       [C]()                       |
+| 0002  |      [Add Two Numbers](https://leetcode.com/problems/two-sum/)       |    Easy    | [Java]() | [Python]() | [Golang]() | [Cpp]()  |                       [C]()                       |
