@@ -75,3 +75,4 @@
 | 0001  |      [Two Sum](https://leetcode.com/problems/two-sum/)       |    Easy    | [Java]() | [Python]() | [Golang]() | [Cpp]()  |                       [C]()                       |
 | 0002  |      [Add Two Numbers](https://leetcode.com/problems/two-sum/)       |    Easy    | [Java]() | [Python]() | [Golang]() | [Cpp]()  |                       [C]()                       |
 | 0997  |      [Find the Town Judge](https://leetcode-cn.com/problems/find-the-town-judge/)       |    Easy    | [Java]() | [Python]() | [Golang]() | [Cpp]()  |                       [C]()                       |
+| 0997  |      [Find the Town Judge](https://leetcode-cn.com/problems/find-the-town-judge/)       |    Easy    | [Java]() | [Python]() | [Golang]() | [Cpp]()  |                       [C]()                       |
