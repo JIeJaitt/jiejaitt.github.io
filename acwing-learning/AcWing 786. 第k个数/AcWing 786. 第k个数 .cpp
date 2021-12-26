@@ -5,9 +5,10 @@ using namespace std;
 const int N=100000+10;
 int q[N];
 
-void quick_sort(int q[],int l,int r)
+int quick_sort(int q[],int l,int r,int k)
 {
-    if(l>=r) return ;
+    if(l>=r) return q[l];
+    
     int i=l-1,j=r+1,x=q[l+r>>1];
     while(i<j)
     {
@@ -15,7 +16,8 @@ void quick_sort(int q[],int l,int r)
         do j--;while(q[j]>x);
         if(i<j) swap(q[i],q[j]);
     }
-    quick_sort(q,l,j),quick_sort(q,j+1,r);
+    if(j-l+1>=k) return quick_sort(q,l,j,k);
+    else return quick_sort(q,j+1,r,k-(j-l+1));
 }
 
 int main()
@@ -23,11 +25,9 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(0);
     
-    int n;cin>>n;
-
+    int n,k;cin>>n>>k;
     for(int i=0;i<n;i++) cin>>q[i];
-    quick_sort(q,0,n-1);
-    for(int i=0;i<n;i++) cout<<q[i]<<" ";
+    cout<<quick_sort(q,0,n-1,k)<<endl;
     
     return 0;
 }
