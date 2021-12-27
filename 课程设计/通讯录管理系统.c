@@ -95,22 +95,22 @@ void insert()//插入数据
     p1=head;
     p3=(stu *)malloc(sizeof(stu));//申请内存
     p3->next=NULL;
-    printf("请输入插入者的数据：\n");
-    printf("名字：");
+    printf("请输入插入者的数据:\n");
+    printf("名字:");
     scanf("%s",&p3->name);
-    printf("性别：");
+    printf("性别:");
     scanf("%s",&p3->wm);
-    printf("工作单位：");
+    printf("工作单位:");
     scanf("%s",&p3->work);
-    printf("手机：");
+    printf("手机:");
     scanf("%s",&p3->stel);
-    printf("住宅号码：");
+    printf("住宅号码:");
     scanf("%s",&p3->htel);
-    printf("E-Mail：");
+    printf("E-Mail:");
     scanf("%s",&p3->mail);
-    printf("家庭地址：");
+    printf("家庭地址:");
     scanf("%s",&p3->home);
-    printf("请选择插入位置：1.首位置插入  2.尾部插入  3.插到某人前面\n请选择：");
+    printf("请选择插入位置:1.首位置插入  2.尾部插入  3.插到某人前面\n请选择:");
     scanf("%d",&ans);
     switch(ans)
     {
@@ -124,7 +124,7 @@ void insert()//插入数据
         p1->next=p3;
         break;
     case 3://放到某人前面
-        printf("请输入插到谁前面名字：");
+        printf("请输入插到谁前面名字:");
         scanf("%s",name);
         while(strcmp(name,p1->name)!=0)
         {
@@ -142,7 +142,7 @@ void deleted()//删除数据
     stu *p1,*p2;
     char name[20];//删除者名字
     printf("========删除数据========\n");
-    printf("请输入要删除者的名字：");
+    printf("请输入要删除者的名字:");
     scanf("%s",name);
     p1=head;
     if(head==NULL)//通讯录已经没数据了
@@ -164,7 +164,7 @@ void deleted()//删除数据
     }
     if(p1==NULL)//查找完了，没找到
     {
-        printf("查无此人！！！！\n");
+        printf("查无此人!!!!\n");
         printf("========删除失败========\n");
         return;
     }
@@ -341,7 +341,8 @@ int main()
             break;
         case 9:
             printf("===============欢迎你再次使用通讯录系统===============\n");
-            exit(1);//退出系统
+            // exit(1);
+            exit(0);
             break;
         }
     }

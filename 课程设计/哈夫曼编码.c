@@ -95,6 +95,7 @@ void get_ans(struct node*k,int i)//获取所有初始节点的赫夫曼编码
 		get_ans(k->parent,i);
 	}
 }
+
 int main()
 {
 	int i,j,sum;
