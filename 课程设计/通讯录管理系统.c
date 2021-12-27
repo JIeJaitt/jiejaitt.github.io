@@ -55,7 +55,7 @@ void input()//输入数据
             p1=(stu *)malloc(sizeof(stu));//申请下一个要用的空间
             if(p1!=NULL)
                 p2->next=p1;
-            printf("请选择是否继续输入：1.继续  2.退出\n请选择：");//用户选择
+            printf("请选择是否继续输入:1.继续  2.退出\n请选择:");//用户选择
             scanf("%d",&ans);
             if(ans==1)//继续
                 continue;
