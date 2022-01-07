@@ -9,18 +9,14 @@
 from tkinter import *
 import math 
 
-#定义棋盘类
 class chessBoard() :
     def __init__(self) :
-        # 创建窗口并为窗口命名
         self.window = Tk()
         self.window.title("五子棋课程设计答辩演示程序")
         self.window.geometry("660x470")
-        # 禁止窗口放缩，防止出现未知bug
         self.window.resizable(0,0)
         self.canvas=Canvas(self.window , bg="#EEE8AC" , width=470, height=470)
         self.paint_board()
-        # 定义画布所在的网格
         self.canvas.grid(row = 0 , column = 0)
 
     def paint_board(self) :
