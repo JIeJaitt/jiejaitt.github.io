@@ -38,11 +38,10 @@ class chessBoard() :
         self.canvas.create_oval(352, 352, 358, 358, fill="black")
 
 
-
-
-#0为黑子 ， 1为白子 ， 2为空位
+# 黑子：0
+# 白字：1
+# 空位：2
 class Gobang() :
-    #初始化
     def __init__(self) :
         self.board = chessBoard()
         self.game_print = StringVar()
