@@ -177,8 +177,6 @@ class Gobang() :
         self.change_color()
         self.game_print.set("请"+self.color+"落子")
     
-
-    #清空
     def empty_all(self) :
         self.board.canvas.delete("chessman")
         #还原初始化
