@@ -39,7 +39,7 @@ class chessBoard() :
 
 
 
-#定义五子棋游戏类
+
 #0为黑子 ， 1为白子 ， 2为空位
 class Gobang() :
     #初始化
