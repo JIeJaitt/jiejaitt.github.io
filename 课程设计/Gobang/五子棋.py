@@ -207,7 +207,6 @@ class Gobang() :
         Button(self.board.window , text= "结束游戏" ,command = self.board.window.destroy,width = 13, font = ("Verdana", 12)).place(relx=0, rely=0, x=495, y=420)
         self.board.window.mainloop()
 
-    
+
 if __name__ == "__main__":
     game = Gobang()
-
