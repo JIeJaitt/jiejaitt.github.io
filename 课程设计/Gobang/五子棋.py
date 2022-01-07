@@ -9,6 +9,7 @@
 from tkinter import *
 import math 
 
+# 定义棋盘类
 class chessBoard() :
     def __init__(self) :
         self.window = Tk()
@@ -38,6 +39,7 @@ class chessBoard() :
         self.canvas.create_oval(352, 352, 358, 358, fill="black")
 
 
+# 定义五子棋游戏逻辑
 # 黑子：0
 # 白字：1
 # 空位：2
