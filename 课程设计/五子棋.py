@@ -98,7 +98,6 @@ class Gobang() :
             return True
 
 
-    # 计算连子的数目,并返回最大连子数目
     def chessman_count(self , y , x , color_count ) :
         count1,count2,count3,count4 = 1,1,1,1
         #横计算
