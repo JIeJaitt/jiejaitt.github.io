@@ -51,14 +51,14 @@ class Gobang() :
         self.board = chessBoard()
         self.game_print = StringVar()
         self.game_print.set("")
-        #16*16的二维列表，保证不会out of index
+        # 16*16的二维列表，保证不会out of index
         self.db = [([2] * 16) for i in range(16)]
-        #悔棋用的顺序列表
+        # 悔棋用的顺序列表
         self.order = []
-        #棋子颜色
+        # 棋子颜色
         self.color_count = 0 
         self.color = 'black'
-        #清空与赢的初始化，已赢为1，已清空为1
+        # 清空与赢的初始化，已赢为1，已清空为1
         self.flag_win = 1
         self.flag_empty = 1
         self.options()
@@ -154,7 +154,7 @@ class Gobang() :
         return max(count1 , count2 , count3 , count4)
 
 
-    #判断输赢
+    # 判断输赢
     def game_win(self , y , x , color_count ) :
         if self.chessman_count(y,x,color_count) >= 5 :
             self.flag_win = 1
@@ -164,7 +164,7 @@ class Gobang() :
             return False
         
 
-    #悔棋,清空棋盘，再画剩下的n-1个棋子
+    # 悔棋,清空棋盘，再画剩下的n-1个棋子
     def withdraw(self ) :
         if len(self.order)==0 or self.flag_win == 1:
             return
