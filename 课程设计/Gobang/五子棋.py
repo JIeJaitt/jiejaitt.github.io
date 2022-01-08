@@ -1,3 +1,5 @@
+# coding=UTF-8
+# python的默认编码文件是用的ASCII码，而你的python文件中使用了中文等非英语字符
 '''
 @AutherChinese : Huang Yingjie
 @AutherEnglish : JIeJaitt
