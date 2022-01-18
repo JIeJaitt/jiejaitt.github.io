@@ -1,3 +1,11 @@
+## 其他阅读地点
+博主目前已经拥有了两个长时间更新的博客空间
+| 博客 | 地址 |
+| :-:| :-: |
+|CSDN|[jiejaitt.blog.csdn.net](https://jiejaitt.blog.csdn.net) |
+|INIS|[jiejaitt.blog.inis.cn](https://jiejaitt.blog.inis.cn) |
+
+
 ## 计划表
 - [ ] 常用博文便写技巧
 - [ ] 简书小说《葬仪少女与她的异世界兄长》&& 《憨厚桃子与她的异世界哥哥》
