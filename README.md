@@ -2,9 +2,8 @@
 博主目前已经拥有了两个长时间更新的博客空间
 | 博客 | 地址 |
 | :-:| :-: |
-|ONENAV|[yniije.com](https://yniije.com) |
 |CSDN|[jiejaitt.blog.csdn.net](https://jiejaitt.blog.csdn.net) |
-|INIS|[jiejaitt.blog.inis.cn](https://jiejaitt.blog.inis.cn) |
+|INIS|[  jiejaitt.blog.inis.cn](https://jiejaitt.blog.inis.cn) |
 
 ## 文章计划表
 - wordpress解决数学公式插入 
