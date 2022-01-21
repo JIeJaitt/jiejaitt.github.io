@@ -6,9 +6,12 @@
 |CSDN|[jiejaitt.blog.csdn.net](https://jiejaitt.blog.csdn.net) |
 |INIS|[jiejaitt.blog.inis.cn](https://jiejaitt.blog.inis.cn) |
 
+## 文章计划表
+- wordpress解决数学公式插入 
+
 
 ## 计划表
-wordpress究竟如何解决数学公式插入的问题呀
+
 - [ ] 常用博文便写技巧
 - [ ] 简书小说《葬仪少女与她的异世界兄长》&& 《憨厚桃子与她的异世界哥哥》
 - [ ] 做一个导航网站
