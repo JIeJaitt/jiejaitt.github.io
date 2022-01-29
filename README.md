@@ -7,7 +7,7 @@
 
 ## 文章计划表
 - wordpress解决数学公式插入 
-
+- On campus recruiting/recruitment (OCR) 校园招聘
 
 ## 计划表
 
